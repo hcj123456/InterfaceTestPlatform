@@ -5,7 +5,16 @@ verify_ssl = true
 name = "pypi"
 
 [packages]
-django = "*"
+djangorestframework = "*"
+markdown = "*"
+djangorestframework-yaml = "*"
+djangorestframework-xml = "*"
+django-filter = "*"
+coreapi = "*"
+drf-yasg = "*"
+django-debug-toolbar = "*"
+django = "==3.2.6"
+djangorestframework-jwt = "==1.11.0"
 
 [dev-packages]
 
